@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wangfeng/Documents/quantjob/hydro/Main.cc
+iostream
+-
+Model/Order.h
+/Users/wangfeng/Documents/quantjob/hydro/Model/Order.h
+
+/Users/wangfeng/Documents/quantjob/hydro/Model/Order.cc
+Order.h
+/Users/wangfeng/Documents/quantjob/hydro/Model/Order.h
+
+/Users/wangfeng/Documents/quantjob/hydro/Model/Order.h
+
